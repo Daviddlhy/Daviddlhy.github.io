@@ -1,0 +1,97 @@
+# section information
+section:
+  name: A propos
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Consultant Data Scientist
+# your company information
+company:
+  name: Orange Business Services
+  url: "https://www.orange-business.com/fr"
+
+
+# a summary about you
+summary: 'Data guy passioné par la data, intervant sur tout le pipeline de la data.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "david.ddelhaye@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/Daviddlhy"
+
+#- name: Stackoverflow
+#  icon: "fab fa-stack-overflow"
+#  url: "#"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/d-delhaye/"
+
+#- name: Twitter
+#  icon: "fab fa-twitter"
+#  url: "#"
+
+#- name: Facebook
+#  icon: "fab fa-facebook"
+#  url: "#"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "Mon CV"
+  url: "files/CV_Delhaye.pdf"
+
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: Tableau Consumer
+  url: "https://www.credly.com/badges/6db2d963-de1c-499a-8d8f-6d896dc85e89/linked_in_profile"
+  badge: "https://images.credly.com/size/680x680/images/c08e3457-8b19-4ddc-ab89-1a5d2aa587c1/Consumer-600X600.png"
+
+- type: certification
+  name: Advanced R Programming
+  url: "https://coursera.org/share/55e6fa816d89f6398100ee3c833f67bf"
+  badge: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~L3LMXY2Q5XLM/CERTIFICATE_LANDING_PAGE~L3LMXY2Q5XLM.jpeg"
+
+- type: certification
+  name: Building R Packages
+  url: "https://coursera.org/share/91d5d0467aa3b1e9caa29f5e94e7334e"
+  badge: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~DALSEVWS9K2J/CERTIFICATE_LANDING_PAGE~DALSEVWS9K2J.jpeg"
+
+- type: soft-skill-indicator
+  name: Hard Working
+  percentage: 90
+  color: orange
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 80
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Leadership
+  percentage: 70
+  color: blue
+
+
+
+
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

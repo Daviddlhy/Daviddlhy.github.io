@@ -1,0 +1,70 @@
+# section information
+section:
+  name: Expériences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  template: sections/experiences.html
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Orange Business Services.
+    url: "https://www.orange-business.com/fr"
+    location: Paris France
+    # company overview
+    overview: Orange Business Services est une filiale et une marque du groupe Orange. Il est l'intégrateur du groupe Orange fournissant des services de télécommunications et d'informatique aux entreprises en France et dans le monde.
+  positions:
+  - designation: Consultant Data Scientist
+    start: Juin 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Dévellopement d'applications R shiny
+    - Analyse de fraudes, de recouvrement.  
+    - Optimisation Spark.
+
+- company:
+    name: Iliad/ Free Reseau
+    url: "https://www.iliad.fr/"
+    location: Paris France
+    overview: Créé en 1999, le Groupe iliad est un acteur majeur des télécommunications en Europe. Opérateur innovant, inventeur de la 1ère box triple-play au monde, iliad est aujourd’hui présent en France, en Italie et en Pologne et compte plus de 16 500 salariés au service de 45,3 millions d'abonnés actifs.
+  positions:
+  - designation: Data Scientist
+    start: Novembre 2019
+    end: Juin 2022
+    responsibilities:
+    - Reporting automatisé avec R.
+    - Mentorat R.
+    - Création de data pipeline avec R & Python.
+
+- company:
+    name: Prevision.io
+    url: "https://www.linkedin.com/company/prevision.io/"
+    location: Paris France
+    overview: Start-up éditrice d'une plateforme d'auto-ML.
+  positions:
+  - designation: Stagiaire Data Scientist
+    start: Mars 2019
+    end: Août 2019
+    responsibilities:
+    - Réalisations de POC. 
+    - Documentation et dévellopement package R.
+    - Formation Clients sur la solution.
+- company:
+    name: Ayming
+    url: "https://www.ayming.fr/"
+    location: Paris France
+    overview: 
+  positions:
+  - designation: Stagiaire Data Scientist
+    start: Mars 2018
+    end: Août 2018
+    responsibilities:
+    - Nettoyage de base de données.
+    - Réalisation de benchmark pour les solutions de data visualisations.
+    - Réalisation d'une étude connaissance clients (Réduction de dimension, clustering).
